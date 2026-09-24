@@ -1,0 +1,36 @@
+.vista-header {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+.vehiculo-en-uso {
+  background-color: #e8f8f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #1abc9c;
+}
+.grid-vehiculos {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.tarjeta-vehiculo {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+}
+.btn-accion {
+  width: 100%;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-alquilar { background-color: #3498db; }
+.btn-devolver { background-color: #e74c3c; width: auto; padding: 10px 15px; }
+.tabla-admin { width: 100%; border-collapse: collapse; margin-top: 15px; }
+.tabla-admin th, .tabla-admin td { padding: 10px; border: 1px solid #ddd; }
+.tabla-admin th { background-color: #f2f2f2; text-align: left; }
+.badge { padding: 4px 8px; border-radius: 12px; font-size: 12px; }
